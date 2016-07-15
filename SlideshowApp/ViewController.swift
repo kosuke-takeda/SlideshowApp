@@ -26,6 +26,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var prevBtn: UIButton!
     @IBOutlet weak var nextBtn: UIButton!
+    @IBOutlet weak var ssBtn: UIButton!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,12 +67,18 @@ class ViewController: UIViewController {
             //ボタン無効
             prevBtn.enabled = false;
             nextBtn.enabled = false;
+            //stratをstopに変える記述
+            ssBtn.setTitle("Stop", forState: .Normal)
+            
         }else{
             timer?.invalidate()
             timer = nil
             //ボタン有効
             prevBtn.enabled = true;
             nextBtn.enabled = true;
+            //stopをstartに戻す
+            ssBtn.setTitle("Start", forState: .Normal)
+            
         }
         
     }

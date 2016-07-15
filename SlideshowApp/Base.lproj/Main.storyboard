@@ -76,6 +76,7 @@
                         <outlet property="imageView" destination="SCr-NA-CTx" id="6R4-uX-YmI"/>
                         <outlet property="nextBtn" destination="ogM-pY-H0B" id="Ozk-sO-7Hm"/>
                         <outlet property="prevBtn" destination="Wm4-FK-8Xf" id="fHR-XV-01H"/>
+                        <outlet property="ssBtn" destination="U8N-wV-G4x" id="JS8-Cx-z3m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
